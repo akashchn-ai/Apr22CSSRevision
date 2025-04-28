@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ToonStream Clone</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #fff;
+    }
+
+    header {
+      background-color: #222;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      color: #ffcc00;
+    }
+
+    nav {
+      background: #333;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: #222;
+      border-radius: 10px;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      display: block;
+    }
+
+    .card-title {
+      padding: 10px;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #222;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+      font-size: 14px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>ToonStream</header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Anime</a>
+    <a href="#">Cartoons</a>
+    <a href="#">Downloads</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="grid">
+    <div class="card">
+      <img src="naruto.jpg" alt="Naruto">
+      <div class="card-title">Naruto</div>
+    </div>
+    <div class="card">
+      <img src="dore.png" alt="Doraemon">
+      <div class="card-title">Doraemon</div>
+    </div>
+    <div class="card">
+      <img src="pica.webp" alt="Pokemon">
+      <div class="card-title">Pokemon</div>
+    </div>
+    <!-- Add more cards as needed -->
+  </div>
+
+  <footer>
+    &copy; 2025 ToonStream Clone. All rights reserved.
+  </footer>
+
+</body>
+</html>
