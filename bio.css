@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-container {
+    width: 50px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin: 10px 0;
+    color: #333;
+}
+
+p {
+    color: #666;
+    font-size: 14px;
+}
+
+.contact-info {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.contact-info a {
+    color: #0066cc;
+    text-decoration: none;
+}
